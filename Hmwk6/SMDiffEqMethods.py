@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Define evaluated function and step size
-from DiffEqAlgos import Euler
+from SMDiffEqAlgos import Euler
 step_size = 10/1000
 def func_1(x, t): 
     return -x**3+np.sin(t)
@@ -30,7 +30,7 @@ plt.show()
 
 # Second Order Runge-Kutta Method
 # Define evaluated function and step size
-from DiffEqAlgos import RK_2
+from SMDiffEqAlgos import RK_2
 step_size = 10/1000
 def func_1(x, t): 
     return -x**3+np.sin(t)
@@ -56,7 +56,7 @@ plt.show()
 
 
 # Fourth Order Runge-Kutta Method
-from DiffEqAlgos import RK_4
+from SMDiffEqAlgos import RK_4
 step_size = 10/1000
 def func_1(x, t): 
     return -x**3+np.sin(t)
